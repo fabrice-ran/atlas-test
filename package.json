@@ -1,0 +1,20 @@
+{
+  "name": "atlas-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fabrice-ran/atlas-test.git",
+  "author": "fabrice-ran <fabricerandriamamp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "parse-server": "^5.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
